@@ -1,9 +1,14 @@
 #this is for testing functions in main.py
 
-from main import subtraction
+from main import check_python_version_and_os
 
-def test_subtraction():
-    "testing the subtraction function in main.py"
-    assert subtraction(5,5) == 0
-    assert subtraction (1,6) == -5
-    assert subtraction (6,1) == 5
+required_version = "3.6"
+required_os = "Linux"
+
+python_version_meets_requirement, os_name_matches_requirement = check_python_version_and_os(required_version, required_os)
+
+# Assertions for testing
+assert python_version_meets_requirement, f"Python version {required_version} or higher is not satisfied."
+assert os_name_matches_requirement, f"OS {required_os} is not satisfied."
+
+print("Both requirements are satisfied.")
