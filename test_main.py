@@ -11,8 +11,8 @@ def test_check_python_version_and_os():
           python_version_meets_requirement, os_name_matches_requirement = check_python_version_and_os(version, os_name)
   
           # Assertions for testing
-          assert python_version_meets_requirement in required_versions
-          assert os_name_matches_requirement in required_oses
+          assert python_version_meets_requirement == TRUE
+          assert os_name_matches_requirement == TRUE
   
           all_requirements_met = all_requirements_met and python_version_meets_requirement and os_name_matches_requirement
   
