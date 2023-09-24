@@ -28,11 +28,12 @@ Status badges for CI.yml
 `CI.yml`
 [![CI](https://github.com/nogibjj/Kelly_Tong_miniproject4/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_miniproject4/actions/workflows/CI.yml)
 
-## The Building Process
+## The Building Process (example) 
 
 `make install`
 
 The building process starts with installing the packages. 
+
 **Make install** calls the command pip install --upgrade pip &&\pip install -r requirements.txt
 
 `make lint`
@@ -43,19 +44,14 @@ The building process starts with installing the packages.
 `make test`
 
 **Make test** calls the command python -m pytest -vv --cov=main test_*.py
-<img width="555" alt="make test" src="https://github.com/nogibjj/KellyTong_miniproject3/assets/142815940/e4535731-8049-4f33-b7a2-553254791ad3">
-
+<img width="851" alt="截屏2023-09-23 21 38 15" src="https://github.com/nogibjj/Kelly_Tong_miniproject4/assets/142815940/e1e570b5-f7b8-4cf3-b9e4-073e91611716">
 
 `make format`
 
 **Make format** calls the command black *.py
 
-
 <img width="299" alt="make format" src="https://github.com/Kelly0604/miniproject2/assets/142815940/41df08ca-d8f7-4b62-b88b-1f39f1a7d858">
 
-## Visualization
-### A Density Graph on Age
-![age_polars](https://github.com/nogibjj/KellyTong_miniproject3/assets/142815940/8ac69bc2-e45e-4827-a902-5d60838ee44e)
+## Github Action in matrix
 
-## Conclusion
-(Please find more detailed steps in the OutputWeek3.pdf)
+<img width="266" alt="matrix strategy" src="https://github.com/nogibjj/Kelly_Tong_miniproject4/assets/142815940/30aa4bd9-ccb6-4a4b-8954-e36ab42b00b2">
