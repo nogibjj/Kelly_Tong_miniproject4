@@ -11,5 +11,5 @@ def check_python_version_and_os(required_version, required_os):
         os_name_matches_requirement = os_name == required_os
 
         return python_version_meets_requirement, os_name_matches_requirement
-    except Exception as e:
-        return False, False
+    #except Exception as e:
+        #return False, False
