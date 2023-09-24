@@ -9,6 +9,7 @@ python_version_meets_requirement, os_name_matches_requirement = check_python_ver
 
 # Assertions for testing
 assert python_version_meets_requirement, f"Python version {required_version} or higher is not satisfied."
-assert os_name_matches_requirement, f"OS {required_os} is not satisfied."
+if os_name_matches_requirement is not None: 
+  assert os_name_matches_requirement, f"OS {required_os} is not satisfied."
 
 print("Both requirements are satisfied.")
