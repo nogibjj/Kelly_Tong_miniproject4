@@ -3,7 +3,9 @@
 This repository is for IDS706 mini project week 4. 
 
 ## Purpose 
-    This repository is built for testing different python versions and operation systems via github actions. Matrix strategy is use for running multiple testing tasks at the same time. The function in main.py gets the python version and operatin systems. 
+    This repository is built for testing different python versions and operation systems via github actions. 
+    Matrix strategy is use for running multiple testing tasks at the same time. 
+    The function in main.py gets the python version and operatin systems. 
     
 ## Important Things included are:
 - ``.devcontainer`` includes a Dockerfile and devcontainer.json.
