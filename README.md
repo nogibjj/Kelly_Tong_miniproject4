@@ -3,13 +3,8 @@
 This repository is for IDS706 mini project week 4. 
 
 ## Purpose 
-    This repository is created from the template established in week 1 and is a continuation of the project in week 2. 
-    It is set up based on the template's environment. This repository incorporates several other packages to develop 
-    statistical functions, such as polars, pandas, seaborn, and matplotlib.pyplot. 
-    Specifically, the author uses polars to load the dataset gss2.csv which includes variables displaying information on 
-    age, income, and marital status etc. Summary of the dataset and a histogram is developed to 
-    visualize the density of the "age" variable in the dataset.
-
+    This repository is built for testing different python versions and operation systems via github actions. Matrix strategy is use for running multiple testing tasks at the same time. The function in main.py gets the python version and operatin systems. 
+    
 ## Important Things included are:
 - ``.devcontainer`` includes a Dockerfile and devcontainer.json.
                 The 'Dockerfile' within this folder specifies how the container should be built
@@ -22,19 +17,11 @@ This repository is for IDS706 mini project week 4.
 
 - ``README.md`` is the instruction file for the readers.
 
-- ``main.py`` is a Python file. This specific main.py includes features of importing the pandas package and utilizing pandas to visualize data. 
+- ``main.py`` is a Python file. This specific main.py gets the python versions and operation system names. 
 
 - ``requirements.txt`` is to specify the dependencies (libraries and packages) required to run the project.
 
 - ``test_main.py`` is a test file for main.py
-  
-- ``gss2.csv`` is the dataset used in this project. It contains variables such as age, marital status, income, region, and happiness level etc.
-  
-- ``OutputWeek3.pdf`` displays the detailed output from running main.py
-  
-- ``repeat.sh``
-  
-- ``setup.sh``
 
 ## Github actions
 Status badges for CI.yml
