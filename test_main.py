@@ -3,7 +3,7 @@
 from main import check_python_version_and_os
 
 required_version = "3.7, 3.8, 3.9, 3.11"
-required_os = "Linux"
+required_os = "Linux, Windows"
 
 python_version_meets_requirement, os_name_matches_requirement = check_python_version_and_os(required_version, required_os)
 
